@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-col">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main class="main">
+        <div class="sectionUnoColumna">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="Logo del encriptador"/>
+            </div>
+            <input class="texto" type="text" id="texto" name="texto" placeholder="Ingrese el texto aquí:">
+            <div class="sectionUnoFila">
+                <img class="logoMensajeAlerta" src="./assets/bi_exclamation-circle-fill.png" alt="Signo de admiración" />
+                <h6 class="mensajeAlerta">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="sectionDosFila">
+                <button id="btnEncriptar" class="btnEncriptar" type="button" >Encriptar</button>
+                <button class= "btnDesencriptar" type="button">Desencriptar</button>
+            </div>
+           
+        </div>
+        <div class="sectionDosColumna">
+            <p class="textoEncriptado" id="textoEncriptado">otro gato</p>
+            <seption class="infoNoEncontrada" id="infoNoEncontrada">
+                <img src="./assets/Muñeco.png" alt="imagen de una persona buscando información" class="imagen" id="imagen" />
+                <p class="mensajeNoEncontrado">Ningún mensaje fue encontrado</p>
+                <p class="mensajeIngreseTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+           </seption>
+            <button class="btnCopiar" id="btnCopiar">Copiar</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Paola B - 2024</p>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>

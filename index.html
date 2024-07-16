@@ -10,33 +10,47 @@
     <header>
         <img src="./assets/Logo.png" alt="Logo" class="logo">
     </header>
+    
     <main class="main">
-        <section class="sectionUnoColumna">
-            <div class="sectionUnoFila">
-                <textarea  class="texto" id="texto" name="texto" placeholder="Ingrese el texto aquí:"></textarea >
+        <div class="divTitulo">
+            <h1 class="titulo">Encriptador de Texto</h1>
+        </div>
+        <section class="seccionPrincipal">
+            <div class="sectionUnoColumna">
+                <div class="sectionUnoFila">
+                    <textarea  class="texto" id="texto" name="texto" placeholder="Ingrese el texto aquí:"></textarea >
+                </div>
+                <div class="sectionDosFila">
+                    <img class="logoMensajeAlerta" src="./assets/bi_exclamation-circle-fill.png" alt="Signo de admiración" />
+                    <h6 class="mensajeAlerta">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="sectionTresFila">
+                    <button id="btnEncriptar" class="btnEncriptar" type="button">Encriptar</button>
+                    <button id="btnDesEncriptar" class="btnDesencriptar" type="button">Desencriptar</button>
+                </div>
             </div>
-            <div class="sectionDosFila">
-                <img class="logoMensajeAlerta" src="./assets/bi_exclamation-circle-fill.png" alt="Signo de admiración" />
-                <h6 class="mensajeAlerta">Solo letras minúsculas y sin acentos</h6>
-            </div>
-            <div class="sectionTresFila">
-                <button id="btnEncriptar" class="btnEncriptar" type="button">Encriptar</button>
-                <button id="btnDesEncriptar" class="btnDesencriptar" type="button">Desencriptar</button>
-            </div>
-        </section>
 
-        <section class="sectionDosColumna">
-            <p class="textoEncriptado" id="idTextoEncriptado"></p>
-            <section class="infoNoEncontrada" id="idInfoNoEncontrada">
-                <img src="./assets/Muñeco.png" alt="imagen de una persona buscando información" class="imagen" id="imagen" />
-                <p class="mensajeNoEncontrado">Ningún mensaje fue encontrado</p>
-                <p class="mensajeIngreseTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
-           </section>
-            <button class="btnCopiar" id="btnCopiar">Copiar</button>
+            <div class="sectionDosColumna">
+
+                <div class="infoNoEncontrada" id="idInfoNoEncontrada">
+                    <img src="./assets/Muñeco.png" alt="imagen de una persona buscando información" class="imagen" id="imagen" />
+                    <p class="mensajeNoEncontrado">Ningún mensaje fue encontrado</p>
+                    <p class="mensajeIngreseTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+                <div class="filaDos">
+                    <p class="textoEncriptado" id="idTextoEncriptado"></p>
+                </div>
+
+                <div class="filaTres">
+                    <button class="btnCopiar" id="btnCopiar">Copiar</button>
+                </div>
+            </div>
         </section>
+           
     </main>
     <footer class="footer">
-        <p>&copy; Paola B 2024</p>
+        <p>&copy; Paola Betancourth - 2024</p>
     </footer>
     <script src="app.js" defer></script>
 </body>

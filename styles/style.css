@@ -10,22 +10,48 @@
     --letra_inter: "Inter", sans-serif;
    
 }
+
 *{
     padding: 0;
     margin: 0;
     border: 0;
 }
 
+html{
+    height: 100%;
+}
 body{
     background-color:var(--color-cuaternario);
     color:var(--color-primario);
     box-sizing:border-box;
+    height: 100%;
 }
 
+
 .main{
+    gap: 2px;
+    padding-bottom: 3%;
+    height: 90%;
+    width: 100%;
+}
+    
+.seccionPrincipal{
     display: flex;
     gap: 2px;
     padding-bottom: 3%;
+    height: 90%;
+    width: 100%;
+}
+
+.divTitulo{
+    
+    width: 100%;
+    text-align: center;
+    height: 10%;
+    color:var(--color-primario);
+    font-family: var( --letra_inter);
+    font-weight: 400;
+
 }
 
 .logo{
@@ -40,7 +66,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 60%;
-    height: auto;
+    height: 100%;
     margin: 2%;
     text-align: center;
     margin-right: 5%;
@@ -55,7 +81,7 @@ body{
     background-color: var(--color-terciario);
     border-radius: 32px;
     margin-right: 4%;
-    height: auto; 
+    height: 100%; 
     width: 40%; 
    
 }
@@ -121,8 +147,8 @@ body{
 }
 
 .btnEncriptar, .btnDesencriptar{
-    height: 60%;
-    width: 40%;
+    height: 70%;
+    width: 100%;
     text-align: center;
     font-family:  var( --letra_inter);
     font-weight: 400;
@@ -145,6 +171,9 @@ body{
     margin-left: 2.5%;
 }
 
+.filaDos{
+    height: 81%;
+}
 
 .textoEncriptado {
     display: none;
@@ -153,13 +182,13 @@ body{
     font-size:1.5rem;
     color:var(--color-secundario);
     margin-bottom: 0px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 10%;
+    margin-right: 0%;
     margin-top: 20px;
     outline: none; 
     text-align: left;
-    height: 91%; 
-    width: 90%; 
+    height: 80%; 
+    width: 80%; 
     box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
     line-height: 1.5; 
     white-space: normal;
@@ -174,7 +203,7 @@ body{
     display: flex;
     width: 80%; 
     flex-direction: row;  
-    margin-top: 40%;
+    margin-top: 10%;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 0px;
@@ -189,9 +218,9 @@ body{
     font-weight: 700;
     font-size:1.5rem;
     padding-top: 2%;
-    padding-left: 20%;
-    padding-right: 20%;
     color:var(--color-secundario);
+    justify-content: center; 
+    align-items: center;
     text-align: center;
 
 }
@@ -202,17 +231,20 @@ body{
     font-family: var( --letra_inter);
     font-weight: 400;
     font-size:1rem;
-    padding-left: 20%;
-    padding-right: 20%;
     margin-bottom: 50%;
     color:var(--color-secundario);
+    justify-content: center; 
+    align-items: center;
     text-align: center;
 
+}
+.filaTres{
+    height: 19%;
 }
 
 .btnCopiar{
     display: none;
-    height: 9%;
+    height: 51%;
     width: auto;
     border-radius: 24px;
     font-family:  var( --letra_inter);
@@ -222,14 +254,16 @@ body{
     color: var(--color-primario);
     border: 2px solid var(--color-primario); 
     background-color:  var(--color-terciario);
-    text-align: center;  /* Centra el texto horizontalmente */
     line-height: 3px; 
+    margin-left: 15%;
+    margin-right: 10%;
  
   
 }
 .infoNoEncontrada{
     display:block;
     align-items: center;
+    height: 100%;
 }
 .footer{
     text-align: center;
@@ -241,6 +275,7 @@ body{
 /* Media Queries */
 
 
+
 @media (max-width: 1024px) {
     .logo {
         padding: 2% 0% 0% 0%;
@@ -250,6 +285,16 @@ body{
         margin-left:2%;
         margin-right: 5%;
         width: auto;
+        height: auto;
+    }
+    .divTitulo{
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .seccionPrincipal{
+        display: flex;
+        flex-direction:column;
+        height: auto;
     }
     .imagen{
         display:none;
@@ -259,11 +304,9 @@ body{
         height: auto;
     }
     .sectionDosColumna{
-        width: 100%;
-        height: 230px;
-        margin-left: 1%;
-        display: flex;
-        flex-direction: column;
+        width: 95%;
+        height: auto;
+        margin-left: 5%;
         gap: 10px; 
         justify-content: center;
     }
@@ -298,8 +341,8 @@ body{
 
     }
     .btnEncriptar, .btnDesencriptar{
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 2%;
+        margin-right: 2%;
         width: auto;
         height: auto;
         padding: 19px;
@@ -311,22 +354,35 @@ body{
         margin-right: 0%;
     }
     .mensajeNoEncontrado{
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 4%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+      
+    
     
     }
     .mensajeIngreseTexto{
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 2%;
+        padding-right: 2%;
         margin-bottom: 0%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        text-align: center;
+       
     }
     .textoEncriptado{
         width: 92%;
-        height: 200px;
+        height: auto;
+        margin-left: 6%;
     }
     .btnCopiar{
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
         width: 90%;
         padding: 28px;
         margin-bottom: 6%;
@@ -389,34 +445,40 @@ body{
         height: 50px;
     }
 }
+
+
+
 @media (min-width: 1025px) {
     .sectionUnoColumna, .sectionDosColumna{
         height: auto;
     }
-    .mensajeIngreseTexto{
-        margin-bottom: 30%;
-        margin-top: 0%;
-    }
-
+    
     .imagen{
-        margin-top: 10%;
         width: 50%;
-        margin-left: 0%;
+        margin-left: 25%;
         margin-bottom: 0%;
         margin-right: 0%;
-}
-.imagen{
-   margin-left: 20%;
+       
+    }
 
+    
+    .mensajeNoEncontrado{
+        margin-top: 0%;
+    }
+    .mensajeIngreseTexto{
+            margin-bottom: 30%;
+            margin-top: 0%;
+    }
+    
+    
+    .btnCopiar{
+        margin-bottom: 12%;
+        width: 70%;
+    }
 }
-.mensajeNoEncontrado{
-    margin-top: 0%;
-}
-.btnCopiar{
-    margin-bottom: 12%;
-    width: 80%;
-    align-self: center;
-}
-}
+
+
+
+
 
 

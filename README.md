@@ -1,10 +1,10 @@
 # Encriptador de Texto
 
-**Encriptador de Texto** es una aplicación web que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres.
+**Encriptador de Texto** es una aplicación web y version movile que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres.
 
 ## Descripción del Proyecto
 
-Este proyecto está organizado en dos columnas para la vista **desktop**:
+Este proyecto está organizado en dos columnas para la vista, para la version movile solo se oculta la imagen de la columna dos, del mensaje inicial:
 
 ### Columna 1
 
@@ -20,7 +20,7 @@ Este proyecto está organizado en dos columnas para la vista **desktop**:
 
 ## Cómo Funciona
 
-1. **Ingreso de Texto:** El usuario escribe el texto en el campo de texto de la Columna 1.
+1. **Ingreso de Texto:** El usuario escribe el texto en el campo de texto de la Columna 1, texto que no puede estar vacio, debe tener solo letras minusculas, sin acentos y sin caracteres especiales.
 2. **Encriptar Texto:** Al hacer clic en el botón de encriptar, el texto se convierte según reglas predefinidas:
    - **e** → **enter**
    - **i** → **imes**

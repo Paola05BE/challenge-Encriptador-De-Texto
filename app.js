@@ -2,14 +2,18 @@
 function mensajeAlerta(){
     var textoIngresado = document.getElementById('texto').value; // Obtener valor ingresado por el usuario
     var restriccionCaracteres =/^[a-z\s]+$/u;
-    if (restriccionCaracteres.test(textoIngresado)) {
+    if(textoIngresado.trim() === '') {
+    alert("Por favor ingrese un texto para encriptar");
+    }
+    else if (restriccionCaracteres.test(textoIngresado)) {
         encriptartexto();
         mostrarTextoEncriptado();
         limpiarTexto();
     } else {
         limpiarTexto();
-        alert("El texto no es correcto");
-    }
+        alert("Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales");
+        }
+
 }
 
 document.getElementById('btnEncriptar').addEventListener('click', mensajeAlerta);
@@ -63,12 +67,13 @@ function copiarTexto() {
         const elementoHtml = document.getElementById('idTextoEncriptado').innerText;
         navigator.clipboard.writeText(elementoHtml)
             .then(() => {
-                console.log('Texto copiado');
+                /*console.log('Texto copiado');*/
             })
             .catch(err => {
                 console.error('Error al copiar el texto: ', err);
             });
     });
+    
 }
 
 //*****************************función pegar texto***************************************************/  
@@ -99,15 +104,18 @@ function limpiarTexto(){
 function desencriptar(){
     //const btnDesencriptar = document.getElementById('btnDesEncriptar');
     let textoEncriptado = document.getElementById('texto').value;
-    console.log(textoEncriptado);
-    if (textoEncriptado.includes('enter') || textoEncriptado.includes('imes') || textoEncriptado.includes('ai') || textoEncriptado.includes('ober') || textoEncriptado.includes('ufat')) {
+    
+        if(textoEncriptado.trim() === '') {
+            alert("Por favor ingrese un texto para desencriptar");
+    }
+    else if (textoEncriptado.includes('enter') || textoEncriptado.includes('imes') || textoEncriptado.includes('ai') || textoEncriptado.includes('ober') || textoEncriptado.includes('ufat')) {
         const textoDesencriptado = textoEncriptado
             .replace(/enter/g, 'e')  // Reemplaza 'enter' con 'e'
             .replace(/imes/g, 'i')   // Reemplaza 'imes' con 'i'
             .replace(/ai/g, 'a')     // Reemplaza 'ai' con 'a'
             .replace(/ober/g, 'o')   // Reemplaza 'ober' con 'o'
             .replace(/ufat/g, 'u');  // Reemplaza 'ufat' con 'u'
-            console.log(`el texto encriptado es: ${textoDesencriptado}`)
+            /*console.log(`el texto encriptado es: ${textoDesencriptado}`)*/
             document.getElementById('idTextoEncriptado').innerText = textoDesencriptado;
             mostrarTextoDesencriptado();
     }
@@ -115,9 +123,8 @@ function desencriptar(){
         else {
             // Si el texto no está encriptado, retorna el texto tal cual
             document.getElementById('idTextoEncriptado').innerText = textoEncriptado;
-            console.log(`El texto no ha sido encriptado ${textoEncriptado}`);
-            alert('El texto no ha sido encriptado');
-            mostrarTextoDesencriptado();
+            /*console.log(`El texto no ha sido encriptado ${textoEncriptado}`);*/
+            alert('El texto ingresado no ha sido encriptado inicialmente');
         }
         
 }

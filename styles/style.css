@@ -84,7 +84,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--color-terciario);
+    background-color: var(--color-cuaternario);
     border-radius: 32px;
     margin-right: 4%;
     height: 100%; 
@@ -116,11 +116,11 @@ body{
     width: 100%;
     height: auto;
     color:var(--color-secundario);
-    background-color: var(--color-cuaternario);
+    background-color: var(--color-terciario);
     font-family: var( --letra_inter);
     font-weight: 400;
     font-size:1.5rem;
-    border: 2px solid var(--color-cuaternario);
+    border: 2px solid var(--color-terciario);
     outline: none; 
     margin-bottom:5px;
     margin-right:10%;
@@ -183,7 +183,6 @@ body{
 .btnEncriptar:hover, .btnDesencriptar:hover, .btnCopiar:hover {
     background-color: var(--color-cuaternario);
 }
-
 .filaDos{
     height: 81%;
 }
@@ -215,9 +214,9 @@ body{
 .imagen{
     display: flex;
     width: 80%; 
-    height: 70%;
+    height: 50%;
     flex-direction: row;  
-    margin-top: 10%;
+    margin-top: 15%;
     margin-right: 10%;
     margin-left: 10%;
 
@@ -401,6 +400,7 @@ body{
         margin-bottom: 6%;
         align-self: center;
     }
+
 }
 
 @media (min-height: 800px){

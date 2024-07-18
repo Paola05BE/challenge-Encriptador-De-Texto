@@ -13,7 +13,7 @@ Este proyecto está organizado inicialmente por el siguiente logo en el header !
 Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna.
 
 ### Columna 1
-<p>
+
 - **Campo de Texto:** Campo tipo texto Input - Aquí el usuario puede ingresar el texto que desea encriptar o desencriptar.
 
 
@@ -21,14 +21,12 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 -Solo permite letras minúsculas, sin caracteres espaciales y sin asentos, adicional es obligatorio diligenciar el campo de texto, estas validaciones las realiza el sistema al dar clic en encriptar.
 
 - **Mensajes de alerta que** muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
-
--Por favor ingrese un texto para encriptar
-
--Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales
+    -Por favor ingrese un texto para encriptar
+    -Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales
 
 - **Botón de Encriptar:** Al dar clic en encriptar, el sistema transforma el texto ingresado en su versión encriptada, teniendo en cuenta las validaciones anteriormente mencionadas.
 - **Botón de Desencriptar:** Al dar clic en desencriptar, el sistema convierte el texto encriptado de vuelta a su forma original, si el texto no ha sido encriptado inicialmente, el sistema muestra mensaje de alerta: El texto ingresado no ha sido encriptado inicialmente, si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta: Por favor ingrese un texto para desencriptar
-</p>
+
 
 ### Columna 2
 

@@ -55,7 +55,7 @@ function mostrarTextoEncriptado() {
     let textoEncriptado = encriptartexto();
     let elementoHtml = document.getElementById('idTextoEncriptado'); 
     elementoHtml.innerHTML = textoEncriptado;
-    infoNoEncontrada.style.display = 'none'; // Ocultar la información de datos no encontrados la imagen y los dos textos 
+    infoNoEncontrada.style.display = 'none'; // Ocultar la información de datos no encontrados, la imagen y los dos textos 
     botonCopiar.style.display = 'block'; // Mostrar el boton de copiar
     elementoHtml.style.display = 'block'; // Mostrar el texto
 }
@@ -102,7 +102,7 @@ function limpiarTexto(){
 
 //*******************************Funcion de desencriptar+++++++++++++++++++++++++++++++++++++++++++++++ */
 function desencriptar(){
-    //const btnDesencriptar = document.getElementById('btnDesEncriptar');
+   
     let textoEncriptado = document.getElementById('texto').value;
     
         if(textoEncriptado.trim() === '') {
@@ -110,11 +110,11 @@ function desencriptar(){
     }
     else if (textoEncriptado.includes('enter') || textoEncriptado.includes('imes') || textoEncriptado.includes('ai') || textoEncriptado.includes('ober') || textoEncriptado.includes('ufat')) {
         const textoDesencriptado = textoEncriptado
-            .replace(/enter/g, 'e')  // Reemplaza 'enter' con 'e'
-            .replace(/imes/g, 'i')   // Reemplaza 'imes' con 'i'
-            .replace(/ai/g, 'a')     // Reemplaza 'ai' con 'a'
-            .replace(/ober/g, 'o')   // Reemplaza 'ober' con 'o'
-            .replace(/ufat/g, 'u');  // Reemplaza 'ufat' con 'u'
+            .replace(/enter/g, 'e')  // Reemplaza 'enter' por 'e'
+            .replace(/imes/g, 'i')   // Reemplaza 'imes' por 'i'
+            .replace(/ai/g, 'a')     // Reemplaza 'ai' por 'a'
+            .replace(/ober/g, 'o')   // Reemplaza 'ober' por 'o'
+            .replace(/ufat/g, 'u');  // Reemplaza 'ufat' por 'u'
             /*console.log(`el texto encriptado es: ${textoDesencriptado}`)*/
             document.getElementById('idTextoEncriptado').innerText = textoDesencriptado;
             mostrarTextoDesencriptado();
@@ -137,9 +137,9 @@ function mostrarTextoDesencriptado() {
     var botonCopiar = document.getElementById('btnCopiar');
     let elementoHtml=document.getElementById('idTextoEncriptado')
     let textoDesencriptado = document.getElementById('idTextoEncriptado').value; 
-    infoNoEncontrada.style.display = 'none'; // Ocultar la información de datos no encontrados la imagen y los dos textos 
+    infoNoEncontrada.style.display = 'none'; // Ocultar la información de datos no encontrados, la imagen y los dos textos 
     botonCopiar.style.display = 'block'; // Mostrar el boton de copiar
     elementoHtml.style.display = 'block'; // Mostrar el texto
-    limpiarTexto(); //limpiar texto
+    limpiarTexto(); 
 }
 

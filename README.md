@@ -15,6 +15,7 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 -Solo permite letras minúsculas, sin caracteres espaciales y sin asentos, adicional es obligatorio diligenciar el campo de texto, estas validaciones las realiza el sistema al dar clic en encriptar.
 
 Mensajes de alerta que muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
+
 -Por favor ingrese un texto para encriptar
 -Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales
 

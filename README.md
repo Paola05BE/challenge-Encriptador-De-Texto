@@ -15,7 +15,8 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 ### Columna 1
 
 - **Campo de Texto:** Campo tipo texto Input - Aquí el usuario puede ingresar el texto que desea encriptar o desencriptar.
-### Validaciones del campo de texto
+
+<h3>Validaciones del campo de texto</h3>
 -Solo permite letras minúsculas, sin caracteres espaciales y sin asentos, adicional es obligatorio diligenciar el campo de texto, estas validaciones las realiza el sistema al dar clic en encriptar.
 
 - **Mensajes de alerta que** muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:

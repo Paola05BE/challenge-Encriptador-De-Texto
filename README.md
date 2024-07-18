@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-**Encriptador de Texto** es una aplicación web y version móvil/tablet, que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres, utilizando Javascript, html y csss.
+**Encriptador de Texto** es una aplicación web y version móvil/tablet, que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres, utilizando Javascript, html y css.
 
 ## Descripción del Proyecto
 

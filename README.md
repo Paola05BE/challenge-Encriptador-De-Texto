@@ -5,7 +5,8 @@
 ## Descripción del Proyecto
 
 Este proyecto está organizado inicialmente por un logo en el header ![logo](./assets/Logo.png)
-Un titulo de Encriptador de Texto , dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna:
+
+Untitulo de Encriptador de Texto , dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna:
 
 ### Columna 1
 

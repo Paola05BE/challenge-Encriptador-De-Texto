@@ -2,10 +2,11 @@
 
 **Encriptador de Texto** es una aplicación web y version móvil/tablet, que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres, utilizando Javascript, html y css.
 
-## Estado del proyecto:
+
+<h2>Estado del proyecto:</h2>
 -Finalizado, con posibles mejoras más adelante.
 
-## Descripción del Proyecto y sus funcionalidades
+<h2>Descripción del Proyecto y sus funcionalidades</h2>
 
 Este proyecto está organizado inicialmente por el siguiente logo en el header ![logo](./assets/Logo.png)
 
@@ -57,7 +58,7 @@ Imagenes de la página en su versión Móvil:
 ![imagen de la pagina en móvil](./imagenes/Desencriptarmovil.png)
 
 
-## Cómo Funciona
+<h2>Cómo Funciona</h2>
 
 1. **Ingreso de Texto:** El usuario escribe el texto en el **Campo de Texto:** de la Columna 1, texto que no puede estar vacio, debe tener solo letras minusculas, sin acentos y sin caracteres especiales.
 2. **Encriptar Texto:** Al hacer clic en el botón de encriptar, el texto se convierte según reglas predefinidas y muestra el resultado en el texto de la columna 2 **resultado**:
@@ -69,7 +70,7 @@ Imagenes de la página en su versión Móvil:
 3. **Desencriptar Texto:** Al hacer clic en el botón de desencriptar, el texto encriptado se convierte de vuelta a su forma original y muestra el resultado en el texto de la columna 2 **resultado**
 4. **Copiar Texto:** Permite copiar al portapapeles el texto de la columna 2 **resultado** ya encriptado o desencriptado, segun el botón seleccionado anteriormente, para usarlo o copiarlo en el **Campo de Texto** de la Columna 1.
 
-## Tecnologías utilizadas:
+<h2> Tecnologías utilizadas:</h2>
 -javaScript
 -css
 -html
@@ -77,12 +78,12 @@ Imagenes de la página en su versión Móvil:
 -git
 -gitHub
 
-## Personas-Desarrolladores del Proyecto:
+<h2>Personas-Desarrolladores del Proyecto:</h2>
 -Paola Betancourth
 
-## Instalación
+<h2>Instalación</h2>
 
-1. **Clona el Repositorio:**
+<h2> **Clona el Repositorio:**</h2>
 
    ```bash
    git clone https://github.com/Paola05BE/demoluis.git

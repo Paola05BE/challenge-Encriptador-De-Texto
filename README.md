@@ -45,9 +45,9 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
       "Ningún mensaje fue encontrado
       Ingresa el texto que desees encriptar o desencriptar."
   
- tambien muestra la siguiente imagen:
+  tambien muestra la siguiente imagen:
 
-![imagen anonimo](./assets/Anonimo.png)
+  ![imagen anonimo](./assets/Anonimo.png)
 
 
 (la imagen no estará disponible para **móvil** y **tablet**).
@@ -69,7 +69,7 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 3. **Desencriptar Texto:** Al hacer clic en el botón de desencriptar, el texto encriptado se convierte de vuelta a su forma original y muestra el resultado en el texto de la columna 2 **resultado**
 4. **Copiar Texto:** Permite copiar al portapapeles el texto de la columna 2 **resultado** ya encriptado o desencriptado, segun el botón seleccionado anteriormente, para usarlo o copiarlo en el **Campo de Texto** de la Columna 1.
 
-Imagenes de la página en su versión Desktop:
+<h3>Imagenes de la página en su versión Desktop:</h3>
 
 ![imagen de la pagina en desktop](./imagenes/Pantallainicial.png)
 
@@ -78,13 +78,14 @@ Imagenes de la página en su versión Desktop:
 ![imagen de la pagina en desktop](./imagenes/Desencriptar.png)
 
 
-Imagenes de la página en su versión Móvil:
+<h3>Imagenes de la página en su versión Móvil:</h3>
 
 ![imagen de la pagina en móvil](./imagenes/Pantallainicialmovil.png)
 
 ![imagen de la pagina en móvil](./imagenes/Encriptarmovil.png)
 
 ![imagen de la pagina en móvil](./imagenes/Desencriptarmovil.png)
+
 
 
 <h2> Tecnologías utilizadas:</h2>
@@ -101,5 +102,6 @@ Imagenes de la página en su versión Móvil:
 <h2>Instalación</h2>
 **Clona el Repositorio:**
 
-   ```bash
-   git clone https://github.com/Paola05BE/demoluis.git
+git clone 
+
+    https://github.com/Paola05BE/demoluis.git

@@ -20,8 +20,10 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 <h3>Validaciones del campo de texto</h3>
 -Solo permite letras minúsculas, sin caracteres espaciales y sin asentos, adicional es obligatorio diligenciar el campo de texto, estas validaciones las realiza el sistema al dar clic en encriptar.
 
-- **Mensajes de alerta que** muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
+Mensajes de alerta que muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
+
     -Por favor ingrese un texto para encriptar
+    
     -Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales
 
 - **Botón de Encriptar:** Al dar clic en encriptar, el sistema transforma el texto ingresado en su versión encriptada, teniendo en cuenta las validaciones anteriormente mencionadas.

@@ -31,11 +31,11 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
   
 - **Botón de Desencriptar:** Al dar clic en desencriptar, el sistema convierte el texto encriptado de vuelta a su forma original, si el texto no ha sido encriptado inicialmente, el sistema muestra mensaje de alerta:
   
-        -  El texto ingresado no ha sido encriptado inicialmente
+        -El texto ingresado no ha sido encriptado inicialmente
       
 si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta:
 
-        - Por favor ingrese un texto para desencriptar
+        -Por favor ingrese un texto para desencriptar
 
 
 ### Columna 2
@@ -46,7 +46,9 @@ si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistem
       Ingresa el texto que desees encriptar o desencriptar."
   
 tambien muestra la siguiente imagen:
+
 ![imagen anonimo](./assets/Anonimo.png)
+
 
 (la imagen no estará disponible para **móvil** y **tablet**).
 

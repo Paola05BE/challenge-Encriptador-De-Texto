@@ -36,12 +36,23 @@ tambien muestra la siguiente imagen:
 - **Resultado:** En este espacio de tipo texto, el sistema muestra el texto encriptado o desencriptado como resultado después de haber diligenciado el **Campo de Texto** y haber dado clic en los botones correspondientes a (encriptar o desencriptar).
 - **Botón de Copiar:** Permite copiar al portapapeles el texto encriptado o desencriptado, el cual se encuentra en el campo **Resultado**, para posteriormente poderlo pegar en el **campo de texto** de la columna 1.
 
+Imagenes de la página en version Desktop:
+
 ![imagen de la pagina en desktop](./imagenes/Pantallainicial.png)
+
 ![imagen de la pagina en desktop](./imagenes/Encriptar.png)
+
 ![imagen de la pagina en desktop](./imagenes/Desencriptar.png)
+
+
+Imagenes de la página ne versión Móvil:
+
 ![imagen de la pagina en móvil](./imagenes/Pantallainicialmovil.png)
+
 ![imagen de la pagina en móvil](./imagenes/Encriptarmovil.png)
+
 ![imagen de la pagina en móvil](./imagenes/Desencriptarmovil.png)
+
 
 ## Cómo Funciona
 

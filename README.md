@@ -82,8 +82,7 @@ Imagenes de la página en su versión Móvil:
 -Paola Betancourth
 
 <h2>Instalación</h2>
-
-<h2> **Clona el Repositorio:**</h2>
+**Clona el Repositorio:**
 
    ```bash
    git clone https://github.com/Paola05BE/demoluis.git

@@ -17,14 +17,15 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 - **Campo de Texto:** Campo tipo texto Input - Aquí el usuario puede ingresar el texto que desea encriptar o desencriptar.
 
 
-<h3>Validaciones del campo de texto</h3>
+<p style="text-align: center;">Validaciones del campo de texto</p>
 -Solo permite letras minúsculas, sin caracteres espaciales y sin asentos, adicional es obligatorio diligenciar el campo de texto, estas validaciones las realiza el sistema al dar clic en encriptar.
 
 Mensajes de alerta que muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
 
-    -Por favor ingrese un texto para encriptar
+Por favor ingrese un texto para encriptar
     
-    -Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales
+Por favor no incluya letras mayúsculas, acentos, ni caracteres especiales
+</p>
 
 - **Botón de Encriptar:** Al dar clic en encriptar, el sistema transforma el texto ingresado en su versión encriptada, teniendo en cuenta las validaciones anteriormente mencionadas.
 - **Botón de Desencriptar:** Al dar clic en desencriptar, el sistema convierte el texto encriptado de vuelta a su forma original, si el texto no ha sido encriptado inicialmente, el sistema muestra mensaje de alerta: El texto ingresado no ha sido encriptado inicialmente, si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta: Por favor ingrese un texto para desencriptar

@@ -33,7 +33,7 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
   
         -El texto ingresado no ha sido encriptado inicialmente
   
-si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta:
+  si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta:
 
         -Por favor ingrese un texto para desencriptar
 
@@ -45,7 +45,7 @@ si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistem
       "Ningún mensaje fue encontrado
       Ingresa el texto que desees encriptar o desencriptar."
   
-tambien muestra la siguiente imagen:
+ tambien muestra la siguiente imagen:
 
 ![imagen anonimo](./assets/Anonimo.png)
 
@@ -53,7 +53,7 @@ tambien muestra la siguiente imagen:
 (la imagen no estará disponible para **móvil** y **tablet**).
 
 - **Resultado:** En este espacio de tipo texto, el sistema muestra el texto encriptado o desencriptado como resultado después de haber diligenciado el **Campo de Texto** y haber dado clic en los botones correspondientes a (encriptar o desencriptar).
-- 
+ 
 - **Botón de Copiar:** Permite copiar al portapapeles el texto encriptado o desencriptado, el cual se encuentra en el campo **Resultado**, para posteriormente poderlo pegar en el **campo de texto** de la columna 1.
   
 

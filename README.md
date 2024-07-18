@@ -19,8 +19,8 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 
     <h3>Validaciones del campo de texto</h3>
     -Solo permite letras minúsculas, sin caracteres espaciales y sin asentos, adicional es obligatorio diligenciar el campo de texto,         estas validaciones las realiza el sistema al dar clic en encriptar.
-
-        Mensajes de alerta que muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
+    
+    -Mensajes de alerta que muestra el sistema al diligenciar incorrectamente el texto y dar clic en encriptar:
 
         Por favor ingrese un texto para encriptar
     
@@ -28,21 +28,28 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
   
 
 - **Botón de Encriptar:** Al dar clic en encriptar, el sistema transforma el texto ingresado en su versión encriptada, teniendo en cuenta las validaciones anteriormente mencionadas.
-- **Botón de Desencriptar:** Al dar clic en desencriptar, el sistema convierte el texto encriptado de vuelta a su forma original, si el texto no ha sido encriptado inicialmente, el sistema muestra mensaje de alerta: El texto ingresado no ha sido encriptado inicialmente, si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta: Por favor ingrese un texto para desencriptar
+  
+- **Botón de Desencriptar:** Al dar clic en desencriptar, el sistema convierte el texto encriptado de vuelta a su forma original, si el texto no ha sido encriptado inicialmente, el sistema muestra mensaje de alerta:
+    -  El texto ingresado no ha sido encriptado inicialmente
+si no se diligencia ningun texto en el campo al dar clic en encriptar, el sistema muestra el siguiente mensaje de alerta:
+    - Por favor ingrese un texto para desencriptar
 
 
 ### Columna 2
 
 - **Mensaje Inicial tipo texto:** Muestra el siguiente mensaje: 
-"Ningún mensaje fue encontrado
-Ingresa el texto que desees encriptar o desencriptar." 
+  "Ningún mensaje fue encontrado
+  Ingresa el texto que desees encriptar o desencriptar."
+  
 tambien muestra la siguiente imagen:
 ![imagen anonimo](./assets/Anonimo.png)
 
 (la imagen no estará disponible para **móvil** y **tablet**).
 
 - **Resultado:** En este espacio de tipo texto, el sistema muestra el texto encriptado o desencriptado como resultado después de haber diligenciado el **Campo de Texto** y haber dado clic en los botones correspondientes a (encriptar o desencriptar).
+- 
 - **Botón de Copiar:** Permite copiar al portapapeles el texto encriptado o desencriptado, el cual se encuentra en el campo **Resultado**, para posteriormente poderlo pegar en el **campo de texto** de la columna 1.
+  
 
 Imagenes de la página en su versión Desktop:
 

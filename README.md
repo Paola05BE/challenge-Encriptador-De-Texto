@@ -34,7 +34,7 @@ tambien muestra la siguiente imagen:
 (la imagen no estará disponible para **móvil** y **tablet**).
 
 - **Resultado:** En este espacio de tipo texto, el sistema muestra el texto encriptado o desencriptado como resultado después de haber diligenciado el **Campo de Texto** y haber dado clic en los botones correspondientes a (encriptar o desencriptar).
-- **Botón de Copiar:** Permite copiar al portapapeles el texto encriptado o desencriptado, el cual se encuentra en el campo tipo texto **Resultado:**, para posteriormente poderlo pegar en el **campo de texto** de la columna 1.
+- **Botón de Copiar:** Permite copiar al portapapeles el texto encriptado o desencriptado, el cual se encuentra en el campo **Resultado**, para posteriormente poderlo pegar en el **campo de texto** de la columna 1.
 
 ![imagen de la pagina en desktop](./imagenes/Pantallainicial.png)
 ![imagen de la pagina en desktop](./imagenes/Encriptar.png)

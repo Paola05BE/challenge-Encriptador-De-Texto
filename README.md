@@ -1,10 +1,10 @@
 # Encriptador de Texto
 
-**Encriptador de Texto** es una aplicación web y version móvil/tablet, que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres.
+**Encriptador de Texto** es una aplicación web y version móvil/tablet, que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres, utilizando Javascript, hatml y csss.
 
 ## Descripción del Proyecto
 
-Este proyecto está organizado inicialmente por un logo en el header, el titulo de Encriptador de Texto , dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna:
+Este proyecto está organizado inicialmente por un logo en el header ![logo](./assets/Logo.png), el titulo de Encriptador de Texto , dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna:
 
 ### Columna 1
 
@@ -17,9 +17,16 @@ Este proyecto está organizado inicialmente por un logo en el header, el titulo 
 
 ### Columna 2
 
-- **Mensaje Inicial tipo texto:** Muestra un mensaje indicando que aún no se ha ingresado información, tambien muestra una imagen de anonimo.png (la imagen no estará disponible para **móvil** y **tablet**).
+- **Mensaje Inicial tipo texto:** Muestra un mensaje indicando que aún no se ha ingresado información, tambien muestra ![imagen anonimo](./assets/Anonimo.png) (la imagen no estará disponible para **móvil** y **tablet**).
 - **Resultado:** En este espacio de tipo texto, el sistema muestra el texto encriptado o desencriptado como resultado después de haber diligenciado el **Campo de Texto:** y haber dado clic en los botones correspondientes a (encriptar o desencriptar).
 - **Botón de Copiar:** Permite copiar al portapapeles el texto encriptado o desencriptado, el cual se encuentra en el campo tipo texto **Resultado:**, para posteriormente poderlo pegar en el **campo de texto** de la columna 1.
+
+![imagen de la pagina en desktop](./imagenes/Pantallainicial.png)
+![imagen de la pagina en desktop](./imagenes/Encriptar.png)
+![imagen de la pagina en desktop](./imagenes/Desencriptar.png)
+![imagen de la pagina en móvil](./imagenes/Pantallainicialmovil.png)
+![imagen de la pagina en móvil](./imagenes/Encriptarmovil.png)
+![imagen de la pagina en móvil](./imagenes/Desencriptarmovil.png)
 
 ## Cómo Funciona
 

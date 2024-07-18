@@ -121,7 +121,6 @@ function desencriptar(){
     }
 
         else {
-            // Si el texto no está encriptado, retorna el texto tal cual
             document.getElementById('idTextoEncriptado').innerText = textoEncriptado;
             /*console.log(`El texto no ha sido encriptado ${textoEncriptado}`);*/
             alert('El texto ingresado no ha sido encriptado inicialmente');

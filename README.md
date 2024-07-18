@@ -50,7 +50,7 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
   ![imagen anonimo](./assets/Anonimo.png)
 
 
- (la imagen no estará disponible para **móvil** y **tablet**).
+  (la imagen no estará disponible para **móvil** y **tablet**).
 
 - **Resultado:** En este espacio de tipo texto, el sistema muestra el texto encriptado o desencriptado como resultado después de haber diligenciado el **Campo de Texto** y haber dado clic en los botones correspondientes a (encriptar o desencriptar).
  

@@ -2,6 +2,9 @@
 
 **Encriptador de Texto** es una aplicación web y version móvil/tablet, que permite a los usuarios encriptar y desencriptar texto utilizando técnicas simples de sustitución de caracteres, utilizando Javascript, html y css.
 
+##Estado del proyecto:
+-Finalizado, con posibles mejoras más adelante.
+
 ## Descripción del Proyecto
 
 Este proyecto está organizado inicialmente por el siguiente logo en el header ![logo](./assets/Logo.png)
@@ -65,6 +68,17 @@ Imagenes de la página en su versión Móvil:
    - **u**  en **ufat**
 3. **Desencriptar Texto:** Al hacer clic en el botón de desencriptar, el texto encriptado se convierte de vuelta a su forma original y muestra el resultado en el texto de la columna 2 **resultado**
 4. **Copiar Texto:** Permite copiar al portapapeles el texto de la columna 2 **resultado** ya encriptado o desencriptado, segun el botón seleccionado anteriormente, para usarlo o copiarlo en el **Campo de Texto** de la Columna 1.
+
+## Tecnologías utilizadas:
+-javaScript
+-css
+-html
+-visual studio code
+-git
+-gitHub
+
+##Personas-Desarrolladores del Proyecto:
+-Paola Betancourth
 
 ## Instalación
 

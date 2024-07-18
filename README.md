@@ -60,14 +60,18 @@ Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para 
 <h2>Cómo Funciona</h2>
 
 1. **Ingreso de Texto:** El usuario escribe el texto en el **Campo de Texto:** de la Columna 1, texto que no puede estar vacio, debe tener solo letras minusculas, sin acentos y sin caracteres especiales.
-2. **Encriptar Texto:** Al hacer clic en el botón de encriptar, el texto se convierte según reglas predefinidas y muestra el resultado en el texto de la columna 2 **resultado**:
-   - **e**  en **enter**
-   - **i**  en **imes**
-   - **a**  en  **ai**
-   - **o**  en  **ober**
-   - **u**  en **ufat**
-3. **Desencriptar Texto:** Al hacer clic en el botón de desencriptar, el texto encriptado se convierte de vuelta a su forma original y muestra el resultado en el texto de la columna 2 **resultado**
-4. **Copiar Texto:** Permite copiar al portapapeles el texto de la columna 2 **resultado** ya encriptado o desencriptado, segun el botón seleccionado anteriormente, para usarlo o copiarlo en el **Campo de Texto** de la Columna 1.
+   
+3. **Encriptar Texto:** Al hacer clic en el botón de encriptar, el texto se convierte según reglas predefinidas y muestra el resultado en el texto de la columna 2 **resultado**:
+   - la letra **e**  la convierte en **enter**
+   - la letra **i**   la convierte en **imes**
+   - la letra **a**   la convierte en **ai**
+   - la letra **o**  la convierte en  **ober**
+   - la letra **u**  la convierte en **ufat**
+     
+4. **Desencriptar Texto:** Al hacer clic en el botón de desencriptar, el texto encriptado se convierte de vuelta a su forma original y muestra el resultado en el texto de la columna 2 **resultado**
+   
+5. **Copiar Texto:** Permite copiar al portapapeles el texto de la columna 2 **resultado** ya encriptado o desencriptado, segun el botón seleccionado anteriormente, para usarlo o copiarlo en el **Campo de Texto** de la Columna 1.
+   
 
 <h3>Imagenes de la página en su versión Desktop:</h3>
 

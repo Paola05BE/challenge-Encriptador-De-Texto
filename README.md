@@ -5,11 +5,11 @@
 ## Estado del proyecto:
 -Finalizado, con posibles mejoras más adelante.
 
-## Descripción del Proyecto
+## Descripción del Proyecto y sus funcionalidades
 
 Este proyecto está organizado inicialmente por el siguiente logo en el header ![logo](./assets/Logo.png)
 
-Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna:
+Un titulo de Encriptador de Texto, dos columnas para la vista **desktop**, para la version **móvil** y **tablet** muestra toda la información en una sola columna.
 
 ### Columna 1
 

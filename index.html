@@ -25,8 +25,8 @@
                     <h6 class="mensajeAlerta">Solo letras minúsculas y sin acentos</h6>
                 </div>
                 <div class="sectionTresFila">
-                    <button id="btnEncriptar" class="btnEncriptar" type="button">Encriptar</button>
-                    <button id="btnDesEncriptar" class="btnDesencriptar" type="button">Desencriptar</button>
+                    <button id="btnEncriptar" class="btnEncriptar" onclick="mensajeAlerta()" type="button">Encriptar</button>
+                    <button id="btnDesEncriptar" class="btnDesencriptar" onclick="desencriptar()" type="button">Desencriptar</button>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="filaTres">
-                    <button class="btnCopiar" id="btnCopiar">Copiar</button>
+                    <button class="btnCopiar" id="btnCopiar" onclick="copiarTexto()">Copiar</button>
                 </div>
             </div>
         </section>

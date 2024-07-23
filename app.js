@@ -16,8 +16,6 @@ function mensajeAlerta(){
 
 }
 
-document.getElementById('btnEncriptar').addEventListener('click', mensajeAlerta);
-
 //*****************************función encriptar texto***************************************************/
 function encriptartexto(){
     let textoIngresado = document.getElementById('texto').value;
@@ -63,7 +61,6 @@ function mostrarTextoEncriptado() {
 //*****************************función copiar texto***************************************************/   
 function copiarTexto() {
     const btnCopiar = document.getElementById('btnCopiar');
-    btnCopiar.addEventListener('click', () => {
         const elementoHtml = document.getElementById('idTextoEncriptado').innerText;
         navigator.clipboard.writeText(elementoHtml)
             .then(() => {
@@ -72,7 +69,7 @@ function copiarTexto() {
             .catch(err => {
                 console.error('Error al copiar el texto: ', err);
             });
-    });
+
     
 }
 
@@ -127,9 +124,6 @@ function desencriptar(){
         }
         
 }
-document.getElementById('btnDesEncriptar').addEventListener('click', desencriptar);
-
-
 
 //*******************************Funcion mostrar texto desencriptado+++++++++++++++++++++++++++++++++++++++++++++++ */
 function mostrarTextoDesencriptado() {

@@ -61,6 +61,7 @@ function mostrarTextoEncriptado() {
 //*****************************función copiar texto***************************************************/   
 function copiarTexto() {
     const btnCopiar = document.getElementById('btnCopiar');
+    btnCopiar.addEventListener('click', () => {
         const elementoHtml = document.getElementById('idTextoEncriptado').innerText;
         navigator.clipboard.writeText(elementoHtml)
             .then(() => {
@@ -69,7 +70,7 @@ function copiarTexto() {
             .catch(err => {
                 console.error('Error al copiar el texto: ', err);
             });
-
+    });
     
 }
 
